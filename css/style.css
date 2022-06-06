@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/*Começo do header*/
+
+.header {
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+    height: 54px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header .container-header {
+    display: flex;
+    align-items: center;
+    width: 935px;
+    height: 54px;
+    justify-content: space-between;
+}   
+
+.container-header .esquerdo {
+    display: flex;
+    align-items: center;
+}
+
+.container-header .esquerdo ion-icon {
+    font-size: 25px;
+}
+
+.container-header .esquerdo .barra-lateral {
+    width: 1px;
+    margin: 0 10px;
+    height: 20px;
+    background-color: #DBDBDB;
+}
+
+.container-header .centro {
+    background-color: coral;
+    width: 200px;
+}
+
+.container-header .centro input {
+    width: 215px;
+    height: 28px;
+    text-align: center;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+
+.container-header .direita {
+    height: 54px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-header .direita ion-icon {
+    font-size: 25px;
+}
+
+/*Fim do header*/
+
+
+/*Começo do header-mobile*/
+    .header-mobile {
+        display: none;
+    }
+/*Fim do header-mobile*/
+
+/*Começo do main*/
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main .conter-main {
+    display: flex;
+    margin-top: 88px;
+    
+}
+
+
+.stories {
+    display: flex;
+    padding: 15px 0;
+    border: 1px solid #DBDBDB;
+    overflow: hidden;
+    width: 614px;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.stories img {
+    margin-right: 16px;
+}
+
+.caixa {
+    position: relative;
+}
+
+.primeira {
+    margin-left: 10px;
+}
+
+.caixa img {
+    width: 65px;
+    height: 65px;
+    
+}
+
+.caixa .caixa-dentro {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    
+}
+
+.caixa-dentro img {
+    width: 55px;
+    height: 55px;
+}
+
+.caixa p {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.seta-direita {
+    position: absolute;
+    top: 30px;
+    right: -15px;
+    cursor: pointer;
+    margin: 0;
+}
+
+/*----------------------------------------------------coluna post----------------------------------------------------*/
+
+.coluna-post {
+    margin: 24px 0 60px 0;
+    width: 614px;  
+    border: 1px solid #DBDBDB;
+}
+
+.coluna-post:nth-child(4) {
+    margin-bottom: 0;
+}
+
+.cortada {
+    width: 614px;  
+    border: 1px solid #DBDBDB;
+}
+
+.cima .caixa-nike{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa-nike .comeco {
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.comeco img {
+    width: 32px;
+    height: 32px;
+}
+
+.caixa-nike .tres-pontinhos {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.tres-pontinhos .pontos {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: #262626;
+}
+
+.meio video {
+    width: 100%;
+}
+
+.baixo .reacoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 8px;
+}
+
+.reacoes .icones-prin {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.baixo ion-icon {
+    font-size: 22px;
+}
+
+.baixo .curtidas {
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.curtidas img {
+    width: 35px;
+    padding-right: 10px;
+}
+
+.curtidas p {
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.curtidas p strong {
+    font-weight: 700;
+}
+
+
+/*Começo do side-bar*/
+
+.side-bar {
+    width: 293px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.container-side-bar {
+    position: fixed;
+    width: 293px;
+}
+
+.side-bar .catana {
+    display: flex;
+    align-items: center;
+}
+
+.catana .text-catana {
+    margin-left: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.text-catana p.ti {
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.text-catana p.cont {
+    color: #8E8E8E;
+    font-weight: 300;
+}
+
+.sugestoes {
+    margin-top: 20px;
+}
+
+.sugestoes .text-prin {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-prin p:nth-child(1) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #8E8E8E;
+}
+
+.text-prin p:nth-child(2) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;    
+}
+
+.sugestoes .bad-vibes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.bad-vibes > P {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #139EF2;
+}
+
+.sugestoes .img-text {
+    display: flex;
+}
+
+.img-text img {
+    width: 32px;
+    height: 32px;
+}
+
+.img-text .text-conte {
+    font-family: 'Roboto';
+    margin-left: 7px;
+}
+
+.text-conte p:nth-child(1) {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: #262626;
+}
+
+.text-conte p:nth-child(2) {
+    font-weight: 400;
+    font-size: 12px;
+    color: #8E8E8E;
+}
+
+
+.container-side-bar .direitos p:nth-child(1) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #C7C7C7;
+    line-height: 13px;
+    margin-bottom: 15px;
+}
+
+
+.container-side-bar .direitos p:nth-child(2) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+}
+
+
+/*Fim do side-bar*/
+
+
+/*Começo da barra-inferior*/
+
+.barra-inferior {
+    display: none;
+}
+
+/*Fim da barra-inferior*/
+
+/*Fim do main*/
+
+
+
+/*---------------------------------------------começo das midias--------------------------------------------------*/
+
+/*Começo da media 935px*/
+
+@media (max-width: 935px) {
+    .side-bar {
+        display: none;
+    }
+
+    .header .container-header {
+        padding: 0 15px;
+    }
+}
+
+/*Fim da media 935px*/
+
+/*Começo da medaia 614px*/
+
+@media (max-width: 614px){
+
+    .body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header {
+        display: none;
+    }
+    
+    .header-mobile {
+        display: block;
+        display: flex;
+        align-items: center;
+        height: 54px;
+    }
+
+    .container-header-mobile {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 15px;
+        
+    }
+
+    .container-header-mobile ion-icon {
+        font-size: 25px;
+    }
+
+    .main .conter-main {
+        margin-top: 0;
+    }
+
+    .stories {
+        margin-bottom: 0;
+        border-bottom: 0;
+    }
+    
+    .seta-direita {
+        display: none;
+    }
+
+    .coluna-post {
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .meio, .container-main, .conter-main, .baixo, .meio, .reacoes, .meio img, .main, .cortada, .stories, .caixa-nike {
+        width: 100%;
+    }
+
+    .baixo {
+        padding: 0 15px;
+    }
+
+    .barra-inferior {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        width: 100%;
+        height: 54px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .barra-inferior img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .coluna-post:nth-child(4) {
+        margin-bottom: 60px;
+    }
+
+}
+
+/*Fim da media 614px*/
